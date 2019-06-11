@@ -1,7 +1,7 @@
 {
-  "name": "monaco-editor-webpack-plugin",
-  "version": "1.7.0",
-  "description": "A webpack plugin for the Monaco Editor",
+  "name": "monaco-editor-webpack-plugin-extra",
+  "version": "1.0.0",
+  "description": "A webpack plugin for the Monaco Editor Enhance",
   "main": "index.js",
   "typings": "./index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/monaco-editor-webpack-plugin.git"
+    "url": "git+https://github.com/xiaoxudoo/monaco-editor-webpack-plugin-extra.git"
   },
   "keywords": [
     "webpack",
@@ -20,9 +20,9 @@
   "author": "Microsoft Corporation",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Microsoft/monaco-editor-webpack-plugin/issues"
+    "url": "https://github.com/xiaoxudoo/monaco-editor-webpack-plugin-extra.git/issues"
   },
-  "homepage": "https://github.com/Microsoft/monaco-editor-webpack-plugin#readme",
+  "homepage": "https://github.com/xiaoxudoo/monaco-editor-webpack-plugin-extra.git#readme",
   "peerDependencies": {
     "webpack": "^4.5.0",
     "monaco-editor": "^0.15.1"

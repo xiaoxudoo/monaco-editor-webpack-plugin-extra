@@ -48,6 +48,8 @@ Options can be passed in to `MonacoWebpackPlugin`. They can be used to generate 
 
 * `output` (`string`) - custom output path for worker scripts, relative to the main webpack `output.path`.
   * default value: `''`.
+* `publicPath` (`string`) - custom asset public path for worker scripts `output.publicPath`.
+  * default value: `''`.
 * `languages` (`string[]`) - include only a subset of the languages supported.
   * default value: `['apex', 'azcli', 'bat', 'clojure', 'coffee', 'cpp', 'csharp', 'csp', 'css', 'dockerfile', 'fsharp', 'go', 'handlebars', 'html', 'ini', 'java', 'javascript', 'json', 'less', 'lua', 'markdown', 'msdax', 'mysql', 'objective', 'perl', 'pgsql', 'php', 'postiats', 'powerquery', 'powershell', 'pug', 'python', 'r', 'razor', 'redis', 'redshift', 'ruby', 'rust', 'sb', 'scheme', 'scss', 'shell', 'solidity', 'sql', 'st', 'swift', 'typescript', 'vb', 'xml', 'yaml']`.
   
